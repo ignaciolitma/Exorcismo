@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ClickManager : MonoBehaviour
 {
-    public void ClickReaction()
+    public void ClickReaction(InventoryManager inventoryManager)
     {
-        Debug.Log("test");
+        inventoryManager.AgarrarEstaca();
     }
 }
