@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -19,7 +18,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
-        reloj.text = timer.ToString();
+        reloj.text = TimeSpan.FromSeconds(timer).ToString(@"m\:ss");
         if(timer <= 0f)
         {
             SceneManager.LoadScene("Perder");

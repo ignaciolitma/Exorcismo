@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -17,16 +18,12 @@ public class InventoryManager : MonoBehaviour
 
     public void AgarrarAguaBendita()
     {
-        Debug.Log("Agarré el agua Bendita");
         hasEstaca = true;
-        Debug.Log($"{hasAguaBendita} :D");
     }
 
     public void AgarrarVersiculo()
     {
-        Debug.Log("Agarré el versículo");
         hasEstaca = true;
-        Debug.Log($"{hasVersiculo} :D");
     }
 
     //public void AgarrarAbrirComputadora()
@@ -40,7 +37,7 @@ public class InventoryManager : MonoBehaviour
     {
         if (AllElementos())
         {
-            Debug.Log("Por ahora no pasa nada");
+            SceneManager.LoadScene("Exorcismo");
         }    
     }
 
