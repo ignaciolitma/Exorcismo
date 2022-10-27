@@ -3,27 +3,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
     public bool hasEstaca = false;
     public bool hasVersiculo = false;
     public bool hasAguaBendita = false;
-    public void AgarrarEstaca()
+    public void AgarrarEstaca(GameObject biblia)
     {
         Debug.Log("Agarré la estaca");
         hasEstaca = true;
-        Debug.Log($"{hasEstaca} :D");
+        Destroy(biblia);
     }
 
-    public void AgarrarAguaBendita()
+    public void AgarrarAguaBendita(GameObject muerto)
     {
-        hasEstaca = true;
+        Debug.Log("Agarré awa");
+        hasAguaBendita= true;
+        Destroy(muerto);
     }
 
-    public void AgarrarVersiculo()
+    public void AgarrarVersiculo(GameObject computadora)
     {
-        hasEstaca = true;
+        hasVersiculo = true;
+        Destroy(computadora);
+    }
+
+    public void DestruirBasura(GameObject objeto)
+    {
+        Destroy(objeto);
     }
 
     //public void AgarrarAbrirComputadora()
@@ -33,13 +42,7 @@ public class InventoryManager : MonoBehaviour
     //    Debug.Log($"{hasEstaca} :D");
     //}
 
-    private void Update()
-    {
-        if (AllElementos())
-        {
-            SceneManager.LoadScene("Exorcismo");
-        }    
-    }
+
 
     public Boolean AllElementos()
     {
