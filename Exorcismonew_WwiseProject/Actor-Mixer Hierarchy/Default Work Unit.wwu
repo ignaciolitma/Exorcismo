@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="musica_escene_150" ID="{2F6EA496-2E47-43E7-891A-809D01B2FECA}" ShortID="414742449">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87D9DE46-AEEF-474B-AD41-257039426059}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{002AFE14-46FA-4BF2-94F7-E4D98F008FD0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="musica_escene_150" ID="{27AB5F9A-3871-4827-A522-9FCBFF174807}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="10871.053"/>
+								<Property Name="LoopBegin" Type="Real64" Value="5.52755905511811"/>
+								<Property Name="LoopEnd" Type="Real64" Value="72.9212598425197"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>musica_escene_150.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="275937297"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="musica_escene_150" ID="{27AB5F9A-3871-4827-A522-9FCBFF174807}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

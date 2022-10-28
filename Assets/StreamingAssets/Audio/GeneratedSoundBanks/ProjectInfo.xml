@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Exorcismonew_WwiseProject" GUID="{1DFD3058-BF7B-4D6D-A680-B04F227C6C2B}" Generator="2022.1.0.7985"/>
+	<CacheRoot>../../../../Exorcismonew_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{6A4E839F-5E10-4EA6-AEE3-37DB2237771A}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Exorcismonew_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{B8725B21-1481-4C00-9770-0F7D785FF01C}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Exorcismonew_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{E6922005-D3A0-4161-ABCE-258A4B9D6AD6}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{26169F17-5718-0BAD-C430-EC015E6CCDA3}</FileHash>
+</ProjectInfo>
