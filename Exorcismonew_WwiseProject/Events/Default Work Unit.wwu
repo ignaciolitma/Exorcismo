@@ -8,7 +8,84 @@
 						<Action Name="" ID="{41B69D6F-95A2-4327-A3DD-8D19F61135CA}" ShortID="6319325">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="musica_escene_150" ID="{2F6EA496-2E47-43E7-891A-809D01B2FECA}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+									<ObjectRef Name="musica_escene_150" ID="{BA1FE2E9-5FC7-4A21-83F1-4020076AF3AC}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_hit_bible" ID="{E612B149-12BB-47AC-A123-F3C32A3B3109}">
+					<ChildrenList>
+						<Action Name="" ID="{B067C03A-8A05-42A5-AC0D-7A531979803D}" ShortID="302240065">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_bible" ID="{C8525087-A85D-4567-BFC7-27DD2797E8B3}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_hit_body_blood" ID="{BD02ABE1-338F-43A8-98D1-9B8BF16E90CE}">
+					<ChildrenList>
+						<Action Name="" ID="{45E47A92-8558-4EAB-BE41-843DB6992089}" ShortID="687345422">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_body_blood" ID="{A920FA11-A45E-4BA1-8D10-DAC33526D6C4}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_hit_estante" ID="{1704805A-E04C-47B4-A3A0-A7CA538B8CF0}">
+					<ChildrenList>
+						<Action Name="" ID="{1A0840B8-781B-4997-B502-E17051D39831}" ShortID="823509128">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_estante" ID="{E6D6E29B-318C-45C1-850B-B58862F0968B}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_hit_holy_water" ID="{96BD4BE9-D58B-4557-AB2F-151CD9C0D094}">
+					<ChildrenList>
+						<Action Name="" ID="{B9AD17D5-3623-45D3-8E55-7993633AC1C1}" ShortID="749867294">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hit_holy_water" ID="{BE34389B-E32A-4956-99DF-91553C503B13}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ganar_scene_cue" ID="{D063C468-FA11-4994-9C50-47785B9B279C}">
+					<ChildrenList>
+						<Action Name="" ID="{9BF3FB37-8AA5-4D6E-8810-3FECF4E00027}" ShortID="961197543">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ganar_scene_cue" ID="{AF9EE2B1-5272-4FF8-AA6F-1922D7E4B2C1}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Perder_scene_cue" ID="{046CCE1A-8386-4094-BEFC-AAEBA8349EC5}">
+					<ChildrenList>
+						<Action Name="" ID="{C2BF3BFB-B12C-4477-9D71-5145AE7BEC50}" ShortID="40335354">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Perder_scene_cue" ID="{21774DAF-9837-4A43-A1CD-FD17BF226E97}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_menu_cue_scene" ID="{7975942F-7659-429A-A814-7D358560A0C4}">
+					<ChildrenList>
+						<Action Name="" ID="{3E933D85-39D3-4C79-A5C9-33D2F257846E}" ShortID="690448953">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_menu_cue_scene" ID="{5C5C0450-DB62-40DC-A397-9D756669A39B}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -22,23 +22,86 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1764570876" Type="User" Language="SFX" Hash="{0FFD5E80-0136-5A28-8BB1-0A9F63A8F42B}">
+		<SoundBank Id="1764570876" Type="User" Language="SFX">
 			<ShortName>main2</ShortName>
 			<Path>main2.bnk</Path>
 			<Media>
+				<File Id="58091397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_body_blood.wav</ShortName>
+					<CachePath>SFX/hit_body_blood_10C4C929.wem</CachePath>
+				</File>
+				<File Id="112691245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_estante.wav</ShortName>
+					<CachePath>SFX/hit_estante_10C4C929.wem</CachePath>
+				</File>
 				<File Id="275937297" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>musica_escene_150.wav</ShortName>
-					<CachePath>SFX/musica_escene_150_43A13696.wem</CachePath>
+					<CachePath>SFX/musica_escene_150_7D6ACE6B.wem</CachePath>
+				</File>
+				<File Id="335259742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Perder_scene_cue.wav</ShortName>
+					<CachePath>SFX/Perder_scene_cue_10C4C929.wem</CachePath>
+				</File>
+				<File Id="361607951" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_bible.wav</ShortName>
+					<CachePath>SFX/hit_bible_10C4C929.wem</CachePath>
+				</File>
+				<File Id="761545096" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ganar_scene_cue.wav</ShortName>
+					<CachePath>SFX/Ganar_scene_cue_10C4C929.wem</CachePath>
+				</File>
+				<File Id="914373951" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_menu_cue_scene.wav</ShortName>
+					<CachePath>SFX/UI_menu_cue_scene_4698161F.wem</CachePath>
+				</File>
+				<File Id="1026586467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit_holy_water.wav</ShortName>
+					<CachePath>SFX/hit_holy_water_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2412447196" Name="Play_Ganar_scene_cue" DurationType="OneShot" DurationMin="9.77" DurationMax="9.77">
+					<MediaRefs>
+						<MediaRef Id="761545096"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1848743998" Name="Play_hit_bible" DurationType="OneShot" DurationMin="4.7608843" DurationMax="4.7608843">
+					<MediaRefs>
+						<MediaRef Id="361607951"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="25700201" Name="Play_hit_body_blood" DurationType="OneShot" DurationMin="2.6246712" DurationMax="2.6246712">
+					<MediaRefs>
+						<MediaRef Id="58091397"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="416173716" Name="Play_hit_estante" DurationType="OneShot" DurationMin="1.1601661" DurationMax="1.3796778">
+					<MediaRefs>
+						<MediaRef Id="112691245"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="376588150" Name="Play_hit_holy_water" DurationType="OneShot" DurationMin="5.746304" DurationMax="5.746304">
+					<MediaRefs>
+						<MediaRef Id="1026586467"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2110865167" Name="Play_musica_escene_150" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="275937297"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="287133965" Name="Play_Perder_scene_cue" DurationType="OneShot" DurationMin="7.65" DurationMax="7.65">
+					<MediaRefs>
+						<MediaRef Id="335259742"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3490116095" Name="Play_UI_menu_cue_scene" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="914373951"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0C7D0E51-093B-7260-5C9A-6893A59DB11D}</FileHash>
+	<FileHash>{E02D2DF6-42BF-F906-774D-402DF2C1314C}</FileHash>
 </SoundBanksInfo>
