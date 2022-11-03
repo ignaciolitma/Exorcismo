@@ -1,20 +1,32 @@
 Event	ID	Name			Wwise Object Path	Notes
 	25700201	Play_hit_body_blood			\Default Work Unit\Play_hit_body_blood	
+	269420077	Stop_clocks			\Default Work Unit\Stop_clocks	
 	287133965	Play_Perder_scene_cue			\Default Work Unit\Play_Perder_scene_cue	
 	376588150	Play_hit_holy_water			\Default Work Unit\Play_hit_holy_water	
 	416173716	Play_hit_estante			\Default Work Unit\Play_hit_estante	
+	1246237624	Play_vo_possesed			\Default Work Unit\Play_vo_possesed	
+	1403695867	Play_clocks			\Default Work Unit\Play_clocks	
 	1848743998	Play_hit_bible			\Default Work Unit\Play_hit_bible	
 	2110865167	Play_musica_escene_150			\Default Work Unit\Play_musica_escene_150	
+	2369498309	Stop_musica_escene_150			\Default Work Unit\Stop_musica_escene_150	
 	2412447196	Play_Ganar_scene_cue			\Default Work Unit\Play_Ganar_scene_cue	
 	3490116095	Play_UI_menu_cue_scene			\Default Work Unit\Play_UI_menu_cue_scene	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	58091397	hit_body_blood	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\hit_body_blood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_body_blood		463088
 	112691245	hit_estante	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\hit_estante_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_estante		223272
-	275937297	musica_escene_150	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\musica_escene_150_BA482959.wem		\Actor-Mixer Hierarchy\Default Work Unit\musica_escene_150		13787660
+	218682810	vo_6	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\vo_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\vo_possesed\vo_6		786436
+	275937297	musica_escene_150	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\musica_escene_150_7D6ACE6B.wem		\Actor-Mixer Hierarchy\Default Work Unit\musica_escene_150		13787660
+	278844889	vo_5	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\vo_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\vo_possesed\vo_5		693452
 	335259742	Perder_scene_cue	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\Perder_scene_cue_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Perder_scene_cue		1349556
 	361607951	hit_bible	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\hit_bible_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_bible		839916
+	399644496	clocks	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\clocks_260D2B7D.wem		\Actor-Mixer Hierarchy\Default Work Unit\clocks		962976
+	542304821	vo_2	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\vo_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\vo_possesed\vo_2		706980
+	670733751	vo_1	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\vo_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\vo_possesed\vo_1		648020
+	676477437	vo_7	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\vo_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\vo_possesed\vo_7		585976
 	761545096	Ganar_scene_cue	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\Ganar_scene_cue_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ganar_scene_cue		1723524
-	914373951	UI_menu_cue_scene	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\UI_menu_cue_scene_6E1075E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_menu_cue_scene		10337184
+	764019785	vo_3	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\vo_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\vo_possesed\vo_3		693700
+	914373951	UI_menu_cue_scene	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\UI_menu_cue_scene_4698161F.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_menu_cue_scene		10337184
+	924231768	vo_4	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\vo_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\vo_possesed\vo_4		808684
 	1026586467	hit_holy_water	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\hit_holy_water_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_holy_water		1013744
 

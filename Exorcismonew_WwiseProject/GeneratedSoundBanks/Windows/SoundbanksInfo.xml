@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1764570876" Type="User" Language="SFX">
+		<SoundBank Id="1764570876" Type="User" Language="SFX" Hash="{6ACAC26C-40F0-9D4A-2940-1EC3C8D9A3A4}">
 			<ShortName>main2</ShortName>
 			<Path>main2.bnk</Path>
 			<Media>
@@ -34,9 +34,17 @@
 					<ShortName>hit_estante.wav</ShortName>
 					<CachePath>SFX/hit_estante_10C4C929.wem</CachePath>
 				</File>
+				<File Id="218682810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vo_6.wav</ShortName>
+					<CachePath>SFX/vo_6_10C4C929.wem</CachePath>
+				</File>
 				<File Id="275937297" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>musica_escene_150.wav</ShortName>
 					<CachePath>SFX/musica_escene_150_7D6ACE6B.wem</CachePath>
+				</File>
+				<File Id="278844889" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vo_5.wav</ShortName>
+					<CachePath>SFX/vo_5_10C4C929.wem</CachePath>
 				</File>
 				<File Id="335259742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Perder_scene_cue.wav</ShortName>
@@ -46,13 +54,37 @@
 					<ShortName>hit_bible.wav</ShortName>
 					<CachePath>SFX/hit_bible_10C4C929.wem</CachePath>
 				</File>
+				<File Id="399644496" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>clocks.wav</ShortName>
+					<CachePath>SFX/clocks_260D2B7D.wem</CachePath>
+				</File>
+				<File Id="542304821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vo_2.wav</ShortName>
+					<CachePath>SFX/vo_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="670733751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vo_1.wav</ShortName>
+					<CachePath>SFX/vo_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="676477437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vo_7.wav</ShortName>
+					<CachePath>SFX/vo_7_10C4C929.wem</CachePath>
+				</File>
 				<File Id="761545096" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ganar_scene_cue.wav</ShortName>
 					<CachePath>SFX/Ganar_scene_cue_10C4C929.wem</CachePath>
 				</File>
+				<File Id="764019785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vo_3.wav</ShortName>
+					<CachePath>SFX/vo_3_10C4C929.wem</CachePath>
+				</File>
 				<File Id="914373951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_menu_cue_scene.wav</ShortName>
 					<CachePath>SFX/UI_menu_cue_scene_4698161F.wem</CachePath>
+				</File>
+				<File Id="924231768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>vo_4.wav</ShortName>
+					<CachePath>SFX/vo_4_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1026586467" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hit_holy_water.wav</ShortName>
@@ -60,6 +92,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1403695867" Name="Play_clocks" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="399644496"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2412447196" Name="Play_Ganar_scene_cue" DurationType="OneShot" DurationMin="9.77" DurationMax="9.77">
 					<MediaRefs>
 						<MediaRef Id="761545096"/>
@@ -100,8 +137,21 @@
 						<MediaRef Id="914373951"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1246237624" Name="Play_vo_possesed" DurationType="OneShot" DurationMin="2.9589555" DurationMax="4.9987044">
+					<MediaRefs>
+						<MediaRef Id="218682810"/>
+						<MediaRef Id="278844889"/>
+						<MediaRef Id="542304821"/>
+						<MediaRef Id="670733751"/>
+						<MediaRef Id="676477437"/>
+						<MediaRef Id="764019785"/>
+						<MediaRef Id="924231768"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="269420077" Name="Stop_clocks" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2369498309" Name="Stop_musica_escene_150" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E02D2DF6-42BF-F906-774D-402DF2C1314C}</FileHash>
+	<FileHash>{DED810BB-D9E8-E740-3BC9-77245D1B7136}</FileHash>
 </SoundBanksInfo>

@@ -91,6 +91,57 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_vo_possesed" ID="{C6C6670A-ADEB-4EBB-B4C3-CC36B8262082}">
+					<ChildrenList>
+						<Action Name="" ID="{F2885B68-7D84-43DE-8EB3-FA881E47D178}" ShortID="578976772">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vo_possesed" ID="{7F4E5FEB-6216-4259-9296-7A4188C4CB27}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_clocks" ID="{4F287EDD-1C3C-48FD-A083-F14A7E0B0DAC}">
+					<ChildrenList>
+						<Action Name="" ID="{05C24EAC-DE8B-488E-9B65-9D362F4AB1FB}" ShortID="886412606">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="clocks" ID="{670AFA42-12CB-4833-B356-533534FBF500}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_musica_escene_150" ID="{87FBC737-3421-4F1B-97E3-66120396A360}">
+					<ChildrenList>
+						<Action Name="" ID="{93D95EA0-8089-468C-B735-AC980BA4F24E}" ShortID="467094734">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musica_escene_150" ID="{BA1FE2E9-5FC7-4A21-83F1-4020076AF3AC}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_clocks" ID="{9FB4DC30-0D9F-4901-BFE7-87492E711354}">
+					<ChildrenList>
+						<Action Name="" ID="{31852083-4933-47B4-B432-DD7EE4F9E2F0}" ShortID="585939223">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="clocks" ID="{670AFA42-12CB-4833-B356-533534FBF500}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
