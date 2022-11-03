@@ -1,11 +1,8 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http.Headers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -77,9 +74,7 @@ public class InventoryManager : MonoBehaviour
     {
         if(ids.First() == 0 && ids.Last() == 2)
         {
-            Debug.Log($"Dou Ganaste");
-
-            //SceneManager.LoadScene("Ganar");
+            IrA("Ganar");
         }
         else if(ids.Count() == 3)
         {
