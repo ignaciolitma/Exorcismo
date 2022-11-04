@@ -142,6 +142,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_CLICK_MENU" ID="{B28C16E6-D306-4E94-8D14-79C5369A43D3}">
+					<ChildrenList>
+						<Action Name="" ID="{53C45F5A-D88F-4A5B-B2F0-B6427227B510}" ShortID="463240056">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CLICK_MENU" ID="{32E248D5-D0FB-4A83-9CD2-398C3F325AA8}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_UI_menu_cue_scene" ID="{333FA93C-0E77-4C61-92B2-CC5DD4E0DAF1}">
+					<ChildrenList>
+						<Action Name="" ID="{39716E4C-FA13-4589-89D1-C101463F5791}" ShortID="1032697704">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_menu_cue_scene" ID="{5C5C0450-DB62-40DC-A397-9D756669A39B}" WorkUnitID="{312282D8-72E3-4677-BEDC-50BA0A2D96E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

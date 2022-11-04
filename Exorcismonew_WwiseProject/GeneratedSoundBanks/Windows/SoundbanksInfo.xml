@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1764570876" Type="User" Language="SFX" Hash="{6ACAC26C-40F0-9D4A-2940-1EC3C8D9A3A4}">
+		<SoundBank Id="1764570876" Type="User" Language="SFX" Hash="{F821B112-7DDF-BE95-AE35-C668075394D3}">
 			<ShortName>main2</ShortName>
 			<Path>main2.bnk</Path>
 			<Media>
@@ -78,6 +78,10 @@
 					<ShortName>vo_3.wav</ShortName>
 					<CachePath>SFX/vo_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="845069034" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CLICK_BUTTOM 2.wav</ShortName>
+					<CachePath>SFX/CLICK_BUTTOM 2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="914373951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_menu_cue_scene.wav</ShortName>
 					<CachePath>SFX/UI_menu_cue_scene_4698161F.wem</CachePath>
@@ -92,6 +96,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3335725156" Name="Play_CLICK_MENU" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="845069034"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1403695867" Name="Play_clocks" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="399644496"/>
@@ -150,8 +159,9 @@
 				</Event>
 				<Event Id="269420077" Name="Stop_clocks" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2369498309" Name="Stop_musica_escene_150" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="444944129" Name="Stop_UI_menu_cue_scene" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DED810BB-D9E8-E740-3BC9-77245D1B7136}</FileHash>
+	<FileHash>{5F9DC7C1-7243-70C5-09D7-809922CC6670}</FileHash>
 </SoundBanksInfo>

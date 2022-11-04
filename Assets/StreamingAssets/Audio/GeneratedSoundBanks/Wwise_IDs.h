@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_CLICK_MENU = 3335725156U;
         static const AkUniqueID PLAY_CLOCKS = 1403695867U;
         static const AkUniqueID PLAY_GANAR_SCENE_CUE = 2412447196U;
         static const AkUniqueID PLAY_HIT_BIBLE = 1848743998U;
@@ -25,6 +26,7 @@ namespace AK
         static const AkUniqueID PLAY_VO_POSSESED = 1246237624U;
         static const AkUniqueID STOP_CLOCKS = 269420077U;
         static const AkUniqueID STOP_MUSICA_ESCENE_150 = 2369498309U;
+        static const AkUniqueID STOP_UI_MENU_CUE_SCENE = 444944129U;
     } // namespace EVENTS
 
     namespace BANKS

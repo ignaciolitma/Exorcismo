@@ -475,6 +475,28 @@
 						<ActiveSource Name="clocks" ID="{6079397C-129B-4767-A782-AAB11182E198}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="CLICK_MENU" ID="{32E248D5-D0FB-4A83-9CD2-398C3F325AA8}" ShortID="405214606">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87D9DE46-AEEF-474B-AD41-257039426059}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{002AFE14-46FA-4BF2-94F7-E4D98F008FD0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CLICK_BUTTOM 2" ID="{F18A3DAA-35AE-44C6-BE9B-8262A98A99ED}">
+							<Language>SFX</Language>
+							<AudioFile>CLICK_BUTTOM 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="845069034"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="CLICK_BUTTOM 2" ID="{F18A3DAA-35AE-44C6-BE9B-8262A98A99ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

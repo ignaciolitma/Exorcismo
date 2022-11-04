@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2110865167	Play_musica_escene_150			\Default Work Unit\Play_musica_escene_150	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	275937297	musica_escene_150	C:\Users\Manu Saenz\Documents\GitHub\Exorcismonew\Exorcismonew_WwiseProject\.cache\Windows\SFX\musica_escene_150_43A13696.wem		\Actor-Mixer Hierarchy\Default Work Unit\musica_escene_150		15552144
-
