@@ -10,6 +10,11 @@ public class CloseReload : MonoBehaviour
     public void RecargarJuego()
     {
         SceneManager.LoadScene("PlaceHolder");
+    } 
+    
+    public void VolverMenu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
     public void CerrarJuego()
